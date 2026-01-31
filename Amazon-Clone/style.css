@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-style: arial;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #8eb69b;
+}
+
+ /* reuseable thing */
+img{
+    background-size: cover;
+    }
+.grid{
+    display: grid;
+    align-items: center;
+}
+.grid-six--cols{
+    grid-template-columns: repeat(6,1fr);
+}
+
+
+.navbar{
+    height: auto;
+    background-color:#222f3d;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: WHITE;
+}
+.nav-logo{
+    height: 50px;
+    width: 10%;
+    
+}
+.logo{
+    height: auto;
+    width: 10%;
+
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.adr-icon{
+    display: flex;
+}
+#adr-deliver{
+    margin-left: 15px;
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+#adr-country{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+/*       box 3      */
+.nav-search{
+display: flex;
+width: 50%;
+height: 80%;
+justify-content: center;
+align-items: center;
+margin-left: 20px;
+}
+.navi-search{
+    width: 50%;
+    height: 80%;
+    border: none;
+}
+.search{
+    width: 50%;
+    height: 80%;
+    border: none;
+font-size: 1rem;
+}
+.option{
+    height: 40px;
+    border: none;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#select{
+    height: 40px;
+    border: none;
+    width: 50px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f5e9e9;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.op1{
+    font-size:1.2rem;
+}
+/*.button{
+    height: 40px;
+    width: 50px;
+    border: none;
+}*/
+.button-one{
+    height: 40px;
+    width: 50px;
+    border: none;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; 
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* BOX 4  */
+.p2{
+    border: none;
+    font-weight: 700;
+}
+.account{
+    background-color: white;
+    
+  font-size: 0.87rem;
+    border :none;
+    font-weight: 700;
+}
+.p1{
+    font-size: 0.7rem;
+}
+/** BOX 5 
+same as BOX 5 **/
+
+/** BOX 6 **/
+
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+}
+.nav-cart i{
+font-size: 50px;
+}
+/** panel **/
+.panel{
+    display: flex;
+    align-items: center;
+    background-color: #222f3d;
+    color:white;
+    height: 40px;
+}
+.panel-ops{
+    width: 70%;
+    display: flex;
+}
+.panel-ops p{
+    margin-left: 17px;
+}
+/** hero-section **/
+.hero-section{
+    background-color: #8eb69b;
+    background-size: cover;
+    height: 400px;
+
+}
+.hero1{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+background-color: white;
+margin-bottom: 20px;
+height:40px;
+margin-top:250px ;
+margin-left: 90px;
+}
+a{
+    text-decoration: none;
+}
+/** shop-section **/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    border: 2px solid white;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom:15px ;
+
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 40px;
+    
+}
+.shop_p{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.box-content{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+#shop{
+line-height: 10px;
+text-align: center;
+}
+/*** footer ***/
+.footer-1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    background-color: #37475a;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_main{
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+    background-color: #222f3d;
+
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+ul{
+    margin-top: 20px;
+}
